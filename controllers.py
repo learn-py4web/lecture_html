@@ -31,41 +31,41 @@ from .common import db, session, T, cache, auth, logger, authenticated, unauthen
 
 @action("index")
 @action.uses("index.html")
-def index():
+def index1():
     return dict()
 
 @action("bullets")
 @action.uses("bullets.html")
-def index():
+def index2():
     return dict()
 
 @action("columns")
 @action.uses("columns.html")
-def index():
+def index3():
     return dict()
 
 @action("images")
 @action.uses("images.html")
-def index():
+def index4():
     return dict()
 
 @action("many_columns")
 @action.uses("many_columns.html")
-def index():
+def index5():
     return dict()
 
 @action("tables")
 @action.uses("tables.html")
-def index():
+def index6():
     return dict()
 
 @action("icons")
 @action.uses("icons.html")
-def index():
+def index7():
     return dict()
 
 @action("tiles")
 @action.uses("tiles.html")
-def index():
+def index8():
     return dict()
 
