@@ -25,9 +25,7 @@ session, db, T, auth, and tempates are examples of Fixtures.
 Warning: Fixtures MUST be declared with @action.uses({fixtures}) else your app will result in undefined behavior
 """
 
-from py4web import action, request, abort, redirect, URL
-from yatl.helpers import A
-from .common import db, session, T, cache, auth, logger, authenticated, unauthenticated
+from py4web import action, URL
 
 @action("index")
 @action.uses("index.html")

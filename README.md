@@ -1,9 +1,3 @@
-# _scaffold
+# HTML Lecture
 
-to be used as model for other apps
-provides example of usage of:
-
-- yatl (Yet Another Template Language)
-- DAL (db)
-- Session (cookies, redis, memcache, and in db)
-- Translator (the T(text) wrapper)
+A simple application, entirely static, used to illustrate HTML. 
